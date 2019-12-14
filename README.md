@@ -22,13 +22,6 @@
 * [Tips](#tips)
 * [Contributing](#contributing)
 
-## Why Docker
-
-"With Docker, developers can build any app in any language using any toolchain. “Dockerized” apps are completely portable and can run anywhere - colleagues’ OS X and Windows laptops, QA servers running Ubuntu in the cloud, and production data center VMs running Red Hat.
-
-Developers can get going quickly by starting with one of the 13,000+ apps available on Docker Hub. Docker manages and tracks changes and dependencies, making it easier for sysadmins to understand how the apps that developers build work. And with Docker Hub, developers can automate their build pipeline and share artifacts with collaborators through public or private repositories.
-
-Docker helps developers build and ship higher-quality applications, faster." -- [What is Docker](https://www.docker.com/what-docker#copy1)
 
 ## Prerequisites
 
@@ -38,9 +31,7 @@ I use [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) with the [Docker pl
 
 The 3.10.x kernel is [the minimum requirement](https://docs.docker.com/engine/installation/binaries/#check-kernel-dependencies) for Docker.
 
-### MacOS
 
-10.8 “Mountain Lion” or newer is required.
 
 ## Installation
 
@@ -56,11 +47,7 @@ If you're not willing to run a random shell script, please see the [installation
 
 If you are a complete Docker newbie, you should follow the [series of tutorials](https://docs.docker.com/engine/getstarted/) now.
 
-### macOS
 
-Download and install [Docker Community Edition](https://www.docker.com/community-edition). if you have Homebrew-Cask, just type `brew cask install docker`. Or Download and install [Docker Toolbox](https://docs.docker.com/toolbox/overview/).  [Docker For Mac](https://docs.docker.com/docker-for-mac/) is nice, but it's not quite as finished as the VirtualBox install.  [See the comparison](https://docs.docker.com/docker-for-mac/docker-toolbox/).
-
-> **NOTE** Docker Toolbox is legacy. You should to use Docker Community Edition, See [Docker Toolbox](https://docs.docker.com/toolbox/overview/).
 
 Once you've installed Docker Community Edition, click the docker icon in Launchpad. Then start up a container:
 
